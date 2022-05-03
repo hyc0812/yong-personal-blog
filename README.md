@@ -3,13 +3,15 @@
 
 ## Run the code:
 
+1. Run the json server
+```js
+npx json-server --watch data/db.json --port 8000
+```
+2. run the blog's code
 ```js
 cd dojo-blog
 npm install
-```
-Run json server
-```js
-npx json-server --watch data/db.json --port 8000
+npm run start
 ```
 
 

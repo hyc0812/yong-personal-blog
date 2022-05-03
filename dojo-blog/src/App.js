@@ -9,7 +9,9 @@ function App() {
         <Navbar />
           <div className="content">
             <Switch>
-              <Route path="/" exact component={Home}></Route>
+              <Route path="/" >
+                <Home />
+              </Route>
             </Switch>
           </div>
       </div>

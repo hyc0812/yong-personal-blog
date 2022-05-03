@@ -24,6 +24,11 @@ const useFetch = (url) => {
                     setError(err.message);
                 })
         }, 600); 
+
+        // return () => {
+        //     // cleanup
+        //     console.log('cleaning up');
+        // }   
     }, [url]);
 
     return { data, isPending, error };
